@@ -39,6 +39,7 @@ if( salarioBruto <= 900 ) {
 
 }else if( salarioBruto > 900 && salarioBruto <= 1500 ) {
 
+    // descIr = (salarioBruto * 0.05);
     descIr = (salarioBruto / 100) * 5;
 
     totalDesconto = descIr + descInss + descFgts;
@@ -80,6 +81,7 @@ if( salarioBruto <= 900 ) {
     console.log(`Salario liquido é de: R$${salarioLiquido}`);
 
 }
+
 
 
 
